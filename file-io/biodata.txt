@@ -1,0 +1,11 @@
+Nama: Fedrian
+Umur: 22
+Alamat: Balam Km.3
+Nama: Indra
+Umur: 22
+Alamat: Bangko Permata
+---
+Nama: Sasri
+Umur: 22
+Alamat: Riau
+---
