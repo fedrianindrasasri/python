@@ -2,7 +2,10 @@
 import pygame
 from pygame.locals import *
 import math
+<<<<<<< HEAD
 from random import randint
+=======
+>>>>>>> 84fb25c94136594f736f65817dc011e77d150c52
 
 # 2. inisialisasi game
 pygame.init()
@@ -17,6 +20,7 @@ keys = {
 }
 
 running = True
+<<<<<<< HEAD
 playerpos = [100, 100]
 
 score = 0
@@ -25,14 +29,21 @@ arrows = [] # list dari arrows
 enemy_timer = 100 # waktu kemunculan
 enemies = [[width, 100]] # list yang menampung koordinat musuh
 
+=======
+
+playerpos = [100, 100]
+>>>>>>> 84fb25c94136594f736f65817dc011e77d150c52
 
 # 3. load game assets
 # load images
 player = pygame.image.load("resources/images/dude.png")
 grass = pygame.image.load("resources/images/grass.png")
 castle = pygame.image.load("resources/images/castle.png")
+<<<<<<< HEAD
 arrow = pygame.image.load("resources/images/bullet.png")
 enemy_img = pygame.image.load("resources/images/badguy.png")
+=======
+>>>>>>> 84fb25c94136594f736f65817dc011e77d150c52
 
 # 4. game loop
 while(running):
@@ -58,6 +69,7 @@ while(running):
     new_playerpos = (playerpos[0] - player_rotation.get_rect().width / 2, playerpos[1] - player_rotation.get_rect().height / 2)
     screen.blit(player_rotation, new_playerpos)
 
+<<<<<<< HEAD
     # 6.1 draw arrows
     for bullet in arrows:
         arrow_index = 0
@@ -99,6 +111,8 @@ while(running):
 
 
 
+=======
+>>>>>>> 84fb25c94136594f736f65817dc011e77d150c52
     # 7. update screen
     pygame.display.flip()
 
@@ -109,10 +123,13 @@ while(running):
             pygame.quit()
             exit(0)
 
+<<<<<<< HEAD
         # tembak!!
         if event.type == pygame.MOUSEBUTTONDOWN:
             arrows.append([angle, new_playerpos[0]+32, new_playerpos[1]+32])
 
+=======
+>>>>>>> 84fb25c94136594f736f65817dc011e77d150c52
         # cek key bawah dan key atas
         if event.type == pygame.KEYDOWN:
             if event.key == K_w:

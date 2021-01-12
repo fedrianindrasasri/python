@@ -4,7 +4,11 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="Python 3.8 (pygame)" jdkType="Python SDK" />
+=======
+    <orderEntry type="inheritedJdk" />
+>>>>>>> 84fb25c94136594f736f65817dc011e77d150c52
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
